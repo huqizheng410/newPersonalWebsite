@@ -12,21 +12,21 @@ const projects = [
   {
     name: "Friendtastic",
     description:
-      "If you\&apos;re always stressing about managing your relationships or wanna try AI to help you out, maybe using this software could be a good choice.",
+      "If you're always stressing about managing your relationships or wanna try AI to help you out, maybe using this software could be a good choice.",
     link: { href: "", label: "Work In Progress" },
     logo: Friendtastic,
   },
   {
     name: "Blog System",
     description:
-      "A chill team project: a personal blog system. Being my first ever team project, maybe you\&apos;d like to sign up and give our blog a whirl?",
+      "A chill team project: a personal blog system. Being my first ever team project, maybe you'd like to sign up and give our blog a whirl?",
     link: { href: "https://huqizheng.com/homepage", label: "https://huqizheng.com/homepage" },
     logo: blog,
   },
   {
     name: "Real Open AI",
     description:
-      "A fun GPT. With AI being everywhere these days, maybe you\&apos;d wanna try out those quirky or fun AI buddies?",
+      "A fun GPT. With AI being everywhere these days, maybe you'd wanna try out those quirky or fun AI buddies?",
     link: { href: "#", label: "Work In Progress" },
     logo: ChatGPT_logo,
   },
@@ -34,7 +34,7 @@ const projects = [
     name: "More Coming Here",
     description:
       "More projects are on the way. Stay tuned!",
-    link: { href: "#", label: "NA" },
+    link: { href: "https://qizhenghu.com/", label: "NA" },
     logo: comingsoon
   },
 ]
