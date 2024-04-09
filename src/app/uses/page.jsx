@@ -23,89 +23,61 @@ function Tool({ title, href, children }) {
   )
 }
 
-export const metadata = {
-  title: 'Uses',
-  description: 'Software I use, gadgets I love, and other things I recommend.',
-}
-
 export default function Uses() {
   return (
     <SimpleLayout
-      title="Software I use, gadgets I love, and other things I recommend."
-      intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
+      title="Some Software and Technologies I Use, Resources I Recommend."
     >
       <div className="space-y-20">
-        <ToolsSection title="Workstation">
-          <Tool title="16” MacBook Pro, M1 Max, 64GB RAM (2021)">
-            I was using an Intel-based 16” MacBook Pro prior to this and the
-            difference is night and day. I’ve never heard the fans turn on a
-            single time, even under the incredibly heavy loads I put it through
-            with our various launch simulations.
+        <ToolsSection title="Highly recommend!">
+        <Tool title="ChatGPT" href="https://chat.openai.com">
+        Yes, unsurprisingly, I want to introduce you to my 24/7, most patient, and incredibly knowledgeable private teacher.
           </Tool>
-          <Tool title="Apple Pro Display XDR (Standard Glass)">
-            The only display on the market if you want something HiDPI and
-            bigger than 27”. When you’re working at planetary scale, every pixel
-            you can get counts.
-          </Tool>
-          <Tool title="IBM Model M SSK Industrial Keyboard">
-            They don’t make keyboards the way they used to. I buy these any time
-            I see them go up for sale and keep them in storage in case I need
-            parts or need to retire my main.
-          </Tool>
-          <Tool title="Apple Magic Trackpad">
-            Something about all the gestures makes me feel like a wizard with
-            special powers. I really like feeling like a wizard with special
-            powers.
-          </Tool>
-          <Tool title="Herman Miller Aeron Chair">
-            If I’m going to slouch in the worst ergonomic position imaginable
-            all day, I might as well do it in an expensive chair.
+          <Tool title="ChatGPT API" href="https://platform.openai.com">
+          Currently diving into a tech that stands out from the GPT - it offers more freedom and choices, letting you integrate features into your software as per your needs.
           </Tool>
         </ToolsSection>
-        <ToolsSection title="Development tools">
-          <Tool title="Sublime Text 4">
-            I don’t care if it’s missing all of the fancy IDE features everyone
-            else relies on, Sublime Text is still the best text editor ever
-            made.
+        <ToolsSection title="Software">
+          <Tool title="Visual Studio Code" href="https://code.visualstudio.com">
+          My favorite editor hands down. Seamless integration of multiple languages and features, plus all sorts of handy plugins and libraries—you're gonna love it!
           </Tool>
-          <Tool title="iTerm2">
-            I’m honestly not even sure what features I get with this that aren’t
-            just part of the macOS Terminal but it’s what I use.
+          <Tool title="Docker" href="https://www.docker.com/">
+          Docker is a standout! Makes handling projects a breeze with its container magic, not to mention the heaps of tools and support available. You'll definitely get hooked!
           </Tool>
-          <Tool title="TablePlus">
-            Great software for working with databases. Has saved me from
-            building about a thousand admin interfaces for my various projects
-            over the years.
+          <Tool title="IntelliJ IDEA" href="https://www.jetbrains.com/idea/">
+          IntelliJ IDEA with its smart coding assistance and a boatload of features tailored for productivity, it's like having a coding wizard by your side.
           </Tool>
         </ToolsSection>
-        <ToolsSection title="Design">
-          <Tool title="Figma">
-            We started using Figma as just a design tool but now it’s become our
-            virtual whiteboard for the entire company. Never would have expected
-            the collaboration features to be the real hook.
+        <ToolsSection title="Tech">
+          <Tool title="Git" href="https://git-scm.com/">
+          No need to explain too much, every programmer gets it.
           </Tool>
-        </ToolsSection>
-        <ToolsSection title="Productivity">
-          <Tool title="Alfred">
-            It’s not the newest kid on the block but it’s still the fastest. The
-            Sublime Text of the application launcher world.
-          </Tool>
-          <Tool title="Reflect">
-            Using a daily notes system instead of trying to keep things
-            organized by topics has been super powerful for me. And with
-            Reflect, it’s still easy for me to keep all of that stuff
-            discoverable by topic even though all of my writing happens in the
-            daily note.
-          </Tool>
-          <Tool title="SavvyCal">
-            Great tool for scheduling meetings while protecting my calendar and
-            making sure I still have lots of time for deep work during the week.
-          </Tool>
-          <Tool title="Focus">
-            Simple tool for blocking distracting websites when I need to just do
-            the work and get some momentum going.
-          </Tool>
-        </ToolsSection>
+          <Tool title="React" href="https://reactjs.org/">
+    React has revolutionized the way I build interfaces, making them more interactive and responsive. Its component-based architecture significantly streamlines my development process.
+  </Tool>
+  <Tool title="JavaScript (JS)" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+    JavaScript is the lifeblood of web development for me. It’s the script I breathe when I bring life to static web pages, making them dynamic and engaging.
+  </Tool>
+  <Tool title="Node.js" href="https://nodejs.org/">
+    Node.js has been a game-changer for me, allowing to use JavaScript on the server side. It’s my go-to for creating scalable and efficient web applications.
+  </Tool>
+  <Tool title="Next.js" href="https://nextjs.org/">
+    Next.js empowers me with the ability to build server-side rendering and static web applications with ease. Its seamless integration with React enhances my productivity and performance.
+  </Tool>
+  <Tool title="MongoDB" href="https://www.mongodb.com/">
+    MongoDB has reshaped the way I think about databases. Its flexible, document-oriented model is perfectly suited for my agile development processes.
+  </Tool>
+  <Tool title="Express" href="https://expressjs.com/">
+    Express is my framework of choice for building web applications with Node.js. Its minimalistic and flexible nature allows me to build robust APIs quickly and efficiently.
+  </Tool>
+  <Tool title="AWS (Amazon Web Services)" href="https://aws.amazon.com/">
+    AWS is my playground for cloud computing. It offers an extensive set of tools and services that I leverage to build, deploy, and scale applications with unparalleled agility.
+  </Tool>
+  <Tool title="Azure" href="https://azure.microsoft.com/">
+    Azure provides me with a wealth of cloud services that are vital for developing, testing, deploying, and managing my applications across a global network of Microsoft-managed data centers.
+  </Tool>
+    </ToolsSection>
+        
       </div>
     </SimpleLayout>
   )

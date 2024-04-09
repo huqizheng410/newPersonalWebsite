@@ -2,47 +2,40 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import comingsoon from '@/images/logos/comingsoon.svg'
+import Friendtastic from '@/images/logos/friendtastic.svg'
+import blog from '@/images/logos/blog.svg'
+import ChatGPT_logo from '@/images/logos/ChatGPT_logo.svg'
+
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Friendtastic',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+      'If you\'re always stressing about managing your relationships or wanna try AI to help you out, maybe using this software could be a good choice.',
+    link: { href: '', label: 'Work In Progress' },
+    logo: Friendtastic,
   },
   {
-    name: 'Animaginary',
+    name: 'Blog System',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+      'A chill team project: a personal blog system. Being my first ever team project, maybe you\'d like to sign up and give our blog a whirl?',
+    link: { href: 'https://huqizheng.com/homepage', label: 'https://huqizheng.com/homepage' },
+    logo: blog,
   },
   {
-    name: 'HelioStream',
+    name: 'Real Open AI',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
+      'A fun GPT. With AI being everywhere these days, maybe you\'d wanna try out those quirky or fun AI buddies?',
+    link: { href: '#', label: 'Work In Progress' },
+    logo: ChatGPT_logo,
   },
   {
-    name: 'cosmOS',
+    name: 'More Coming Here',
     description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
-  },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
+      'More projects are on the way. Stay tuned!',
+    link: { href: '#', label: 'NA' },
+    logo: comingsoon
   },
 ]
 
@@ -65,8 +58,8 @@ export const metadata = {
 export default function Projects() {
   return (
     <SimpleLayout
-      title="Things I’ve made trying to put my dent in the universe."
-      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+      title="Some Quirky Ideas or Team Collaboration Projects."
+      intro="I've worked on many projects, and I've put some of the more interesting and milestone ones here. It's continuously being updated."
     >
       <ul
         role="list"

@@ -9,10 +9,13 @@ export default function NotFound() {
           404
         </p>
         <h1 className="mt-4 text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-          Page not found
+          Oops! Page not found
         </h1>
         <p className="mt-4 text-base text-zinc-600 dark:text-zinc-400">
-          Sorry, we couldn’t find the page you’re looking for.
+        Maybe you're looking for a page I haven't created yet? 
+        </p>
+        <p className="mt-4 text-base text-zinc-600 dark:text-zinc-400">
+        If you spot any bugs or have any feedback, feel free to let me know.
         </p>
         <Button href="/" variant="secondary" className="mt-4">
           Go back home

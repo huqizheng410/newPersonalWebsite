@@ -5,9 +5,7 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import {
   GitHubIcon,
-  InstagramIcon,
   LinkedInIcon,
-  TwitterIcon,
 } from '@/components/SocialIcons'
 import qizhengimg from '@/images/Handsome_pic_haha.jpg'
 
@@ -63,53 +61,33 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I’ve loved making things for as long as I can remember, and wrote
-              my first program when I was 6 years old, just two weeks after my
-              mom brought home the brand new Macintosh LC 550 that I taught
-              myself to type on.
+            When I was a kid, my dream was to become a computer geek. The first time I got my hands on a computer, I was completely captivated by this marvel of human intellect. A tiny box and screen, yet through the internet, it held more knowledge than I could ever hope to learn in a lifetime. How fascinating is that!
             </p>
             <p>
-              The only thing I loved more than computers as a kid was space.
-              When I was 8, I climbed the 40-foot oak tree at the back of our
-              yard while wearing my older sister’s motorcycle helmet, counted
-              down from three, and jumped — hoping the tree was tall enough that
-              with just a bit of momentum I’d be able to get to orbit.
+            As a typical INTP personality (if you don't know what I'm talking about, <a href="https://www.16personalities.com/intp-personality" className="text-blue-500 underline">click here</a> to check it out, and you can even test your own personality!). I'm curious about everything around me. You could say curiosity is my primary drive, and logic is the key that helps me navigate through mazes. I'm good at seeing logic, finding similarities, and making connections, so learning anything new seems to come naturally to me.
             </p>
             <p>
-              I spent the next few summers indoors working on a rocket design,
-              while I recovered from the multiple surgeries it took to fix my
-              badly broken legs. It took nine iterations, but when I was 15 I
-              sent my dad’s Blackberry into orbit and was able to transmit a
-              photo back down to our family computer from space.
+            Software development is my jam, just like how I enjoy playing Minecraft. Building software feels like constructing my own kingdom from scratch in Minecraft, and its redstone systems were like my CS 101. After finishing my Bachelor's degree in Commerce at the <a href="https://www.auckland.ac.nz/" className="text-blue-500 underline">University of Auckland</a>, I could finally embark on my beloved coding journey. That's why I chose to continue with a Master of Information Technology at the same University.
             </p>
             <p>
-              Today, I’m the founder of Planetaria, where we’re working on
-              civilian space suits and manned shuttle kits you can assemble at
-              home so that the next generation of kids really <em>can</em> make
-              it to orbit — from the comfort of their own backyards.
+            If you've got some cool ideas you want to bring to life, or for any reason you want to get in touch, feel free to shoot me a message anytime!
             </p>
           </div>
         </div>
         <div className="lg:pl-20">
           <ul role="list">
-            <SocialLink href="#" icon={TwitterIcon}>
-              Follow on Twitter
-            </SocialLink>
-            <SocialLink href="#" icon={InstagramIcon} className="mt-4">
-              Follow on Instagram
-            </SocialLink>
-            <SocialLink href="#" icon={GitHubIcon} className="mt-4">
+            <SocialLink href="https://github.com/huqizheng410" icon={GitHubIcon} className="mt-4">
               Follow on GitHub
             </SocialLink>
-            <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
+            <SocialLink href="https://www.linkedin.com/in/qizheng-hu-a0276b282/" icon={LinkedInIcon} className="mt-4">
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
-              href="mailto:spencer@planetaria.tech"
+              href="mailto:huqizheng410@outlook.com"
               icon={MailIcon}
               className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
             >
-              spencer@planetaria.tech
+              huqizheng410@outlook.com
             </SocialLink>
           </ul>
         </div>
