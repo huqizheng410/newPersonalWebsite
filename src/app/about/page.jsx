@@ -1,17 +1,17 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import clsx from 'clsx'
+import Image from "next/image"
+import Link from "next/link"
+import clsx from "clsx"
 
-import { Container } from '@/components/Container'
+import { Container } from "@/components/Container"
 import {
   GitHubIcon,
   LinkedInIcon,
-} from '@/components/SocialIcons'
-import qizhengimg from '@/images/Handsome_pic_haha.jpg'
+} from "@/components/SocialIcons"
+import qizhengimg from "@/images/Handsome_pic_haha.jpg"
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
-    <li className={clsx(className, 'flex')}>
+    <li className={clsx(className, "flex")}>
       <Link
         href={href}
         className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
@@ -35,9 +35,9 @@ function MailIcon(props) {
 }
 
 export const metadata = {
-  title: 'About',
+  title: "About",
   description:
-    'Kia Ora, I’m Qizheng Hu. currently nestled in Auckland, New Zealand.',
+    "Kia Ora, I’m Qizheng Hu. currently nestled in Auckland, New Zealand.",
 }
 
 export default function About() {
@@ -64,13 +64,13 @@ export default function About() {
             When I was a kid, my dream was to become a computer geek. The first time I got my hands on a computer, I was completely captivated by this marvel of human intellect. A tiny box and screen, yet through the internet, it held more knowledge than I could ever hope to learn in a lifetime. How fascinating is that!
             </p>
             <p>
-            As a typical INTP personality (if you don't know what I'm talking about, <a href="https://www.16personalities.com/intp-personality" className="text-blue-500 underline">click here</a> to check it out, and you can even test your own personality!). I'm curious about everything around me. You could say curiosity is my primary drive, and logic is the key that helps me navigate through mazes. I'm good at seeing logic, finding similarities, and making connections, so learning anything new seems to come naturally to me.
+            As a typical INTP personality (if you don&apos;t know what I&apos;m talking about, <a href="https://www.16personalities.com/intp-personality" className="text-blue-500 underline">click here</a> to check it out, and you can even test your own personality!). I&apos;m curious about everything around me. You could say curiosity is my primary drive, and logic is the key that helps me navigate through mazes. I&apos;m good at seeing logic, finding similarities, and making connections, so learning anything new seems to come naturally to me.
             </p>
             <p>
-            Software development is my jam, just like how I enjoy playing Minecraft. Building software feels like constructing my own kingdom from scratch in Minecraft, and its redstone systems were like my CS 101. After finishing my Bachelor's degree in Commerce at the <a href="https://www.auckland.ac.nz/" className="text-blue-500 underline">University of Auckland</a>, I could finally embark on my beloved coding journey. That's why I chose to continue with a Master of Information Technology at the same University.
+            Software development is my jam, just like how I enjoy playing Minecraft. Building software feels like constructing my own kingdom from scratch in Minecraft, and its redstone systems were like my CS 101. After finishing my Bachelor&apos;s degree in Commerce at the <a href="https://www.auckland.ac.nz/" className="text-blue-500 underline">University of Auckland</a>, I could finally embark on my beloved coding journey. That&apos;s why I chose to continue with a Master of Information Technology at the same University.
             </p>
             <p>
-            If you've got some cool ideas you want to bring to life, or for any reason you want to get in touch, feel free to shoot me a message anytime!
+            If you&apos;ve got some cool ideas you want to bring to life, or for any reason you want to get in touch, feel free to shoot me a message anytime!
             </p>
           </div>
         </div>

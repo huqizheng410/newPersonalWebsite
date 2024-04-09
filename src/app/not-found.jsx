@@ -1,5 +1,5 @@
-import { Button } from '@/components/Button'
-import { Container } from '@/components/Container'
+import { Button } from "@/components/Button"
+import { Container } from "@/components/Container"
 
 export default function NotFound() {
   return (
@@ -12,7 +12,7 @@ export default function NotFound() {
           Oops! Page not found
         </h1>
         <p className="mt-4 text-base text-zinc-600 dark:text-zinc-400">
-        Maybe you're looking for a page I haven't created yet? 
+        Maybe you&apos;re looking for a page I haven&apos;t created yet? 
         </p>
         <p className="mt-4 text-base text-zinc-600 dark:text-zinc-400">
         If you spot any bugs or have any feedback, feel free to let me know.

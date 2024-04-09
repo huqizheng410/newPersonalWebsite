@@ -1,6 +1,6 @@
-import { Card } from '@/components/Card'
-import { Section } from '@/components/Section'
-import { SimpleLayout } from '@/components/SimpleLayout'
+import { Card } from "@/components/Card"
+import { Section } from "@/components/Section"
+import { SimpleLayout } from "@/components/SimpleLayout"
 
 function ToolsSection({ children, ...props }) {
   return (
@@ -39,13 +39,13 @@ export default function Uses() {
         </ToolsSection>
         <ToolsSection title="Software">
           <Tool title="Visual Studio Code" href="https://code.visualstudio.com">
-          My favorite editor hands down. Seamless integration of multiple languages and features, plus all sorts of handy plugins and libraries—you're gonna love it!
+          My favorite editor hands down. Seamless integration of multiple languages and features, plus all sorts of handy plugins and libraries—you&apos;re gonna love it!
           </Tool>
           <Tool title="Docker" href="https://www.docker.com/">
-          Docker is a standout! Makes handling projects a breeze with its container magic, not to mention the heaps of tools and support available. You'll definitely get hooked!
+          Docker is a standout! Makes handling projects a breeze with its container magic, not to mention the heaps of tools and support available. You&apos;ll definitely get hooked!
           </Tool>
           <Tool title="IntelliJ IDEA" href="https://www.jetbrains.com/idea/">
-          IntelliJ IDEA with its smart coding assistance and a boatload of features tailored for productivity, it's like having a coding wizard by your side.
+          IntelliJ IDEA with its smart coding assistance and a boatload of features tailored for productivity, it&apos;s like having a coding wizard by your side.
           </Tool>
         </ToolsSection>
         <ToolsSection title="Tech">

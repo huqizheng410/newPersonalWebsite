@@ -1,40 +1,40 @@
-import Image from 'next/image'
+import Image from "next/image"
 
-import { Card } from '@/components/Card'
-import { SimpleLayout } from '@/components/SimpleLayout'
-import comingsoon from '@/images/logos/comingsoon.svg'
-import Friendtastic from '@/images/logos/friendtastic.svg'
-import blog from '@/images/logos/blog.svg'
-import ChatGPT_logo from '@/images/logos/ChatGPT_logo.svg'
+import { Card } from "@/components/Card"
+import { SimpleLayout } from "@/components/SimpleLayout"
+import comingsoon from "@/images/logos/comingsoon.svg"
+import Friendtastic from "@/images/logos/friendtastic.svg"
+import blog from "@/images/logos/blog.svg"
+import ChatGPT_logo from "@/images/logos/ChatGPT_logo.svg"
 
 
 const projects = [
   {
-    name: 'Friendtastic',
+    name: "Friendtastic",
     description:
-      'If you\'re always stressing about managing your relationships or wanna try AI to help you out, maybe using this software could be a good choice.',
-    link: { href: '', label: 'Work In Progress' },
+      "If you\&apos;re always stressing about managing your relationships or wanna try AI to help you out, maybe using this software could be a good choice.",
+    link: { href: "", label: "Work In Progress" },
     logo: Friendtastic,
   },
   {
-    name: 'Blog System',
+    name: "Blog System",
     description:
-      'A chill team project: a personal blog system. Being my first ever team project, maybe you\'d like to sign up and give our blog a whirl?',
-    link: { href: 'https://huqizheng.com/homepage', label: 'https://huqizheng.com/homepage' },
+      "A chill team project: a personal blog system. Being my first ever team project, maybe you\&apos;d like to sign up and give our blog a whirl?",
+    link: { href: "https://huqizheng.com/homepage", label: "https://huqizheng.com/homepage" },
     logo: blog,
   },
   {
-    name: 'Real Open AI',
+    name: "Real Open AI",
     description:
-      'A fun GPT. With AI being everywhere these days, maybe you\'d wanna try out those quirky or fun AI buddies?',
-    link: { href: '#', label: 'Work In Progress' },
+      "A fun GPT. With AI being everywhere these days, maybe you\&apos;d wanna try out those quirky or fun AI buddies?",
+    link: { href: "#", label: "Work In Progress" },
     logo: ChatGPT_logo,
   },
   {
-    name: 'More Coming Here',
+    name: "More Coming Here",
     description:
-      'More projects are on the way. Stay tuned!',
-    link: { href: '#', label: 'NA' },
+      "More projects are on the way. Stay tuned!",
+    link: { href: "#", label: "NA" },
     logo: comingsoon
   },
 ]
@@ -50,16 +50,11 @@ function LinkIcon(props) {
   )
 }
 
-export const metadata = {
-  title: 'Projects',
-  description: 'Things I’ve made trying to put my dent in the universe.',
-}
-
 export default function Projects() {
   return (
     <SimpleLayout
       title="Some Quirky Ideas or Team Collaboration Projects."
-      intro="I've worked on many projects, and I've put some of the more interesting and milestone ones here. It's continuously being updated."
+      intro="I&apos;ve worked on many projects, and I&apos;ve put some of the more interesting and milestone ones here. It&apos;s continuously being updated."
     >
       <ul
         role="list"

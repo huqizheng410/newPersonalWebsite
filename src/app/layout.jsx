@@ -1,7 +1,7 @@
-import { Providers } from '@/app/providers'
-import { Layout } from '@/components/Layout'
+import { Providers } from "@/app/providers"
+import { Layout } from "@/components/Layout"
 
-import '@/styles/tailwind.css'
+import "@/styles/tailwind.css"
 
 export default function RootLayout({ children }) {
   return (

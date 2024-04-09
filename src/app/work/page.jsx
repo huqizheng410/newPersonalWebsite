@@ -1,6 +1,6 @@
-import { Card } from '@/components/Card'
-import { Section } from '@/components/Section'
-import { SimpleLayout } from '@/components/SimpleLayout'
+import { Card } from "@/components/Card"
+import { Section } from "@/components/Section"
+import { SimpleLayout } from "@/components/SimpleLayout"
 
 function SpeakingSection({ children, ...props }) {
   return (
@@ -32,13 +32,13 @@ export default function Work() {
           <Appearance
             href="#"
             title="Master of Information Technology - University of Auckland"
-            description="I'm really into software development and also dabbled in network security, cloud architecture, and stuff like that."
+            description="I&apos;m really into software development and also dabbled in network security, cloud architecture, and stuff like that."
             event="Feb 2023 to Nov 2024"
           />
           <Appearance
             href="#"
             title="Bachelor of Commerce - University of Auckland"
-            description="Majoring in Finance & Accounting. I've covered pretty much all the essentials in both fields."
+            description="Majoring in Finance & Accounting. I&apos;ve covered pretty much all the essentials in both fields."
             event="2019 to 2022"
           />
         </SpeakingSection>
@@ -52,7 +52,7 @@ export default function Work() {
           <Appearance
             href="https://pacificalpacas.com/"
             title="Self-Employed - PACIFIC ALPACAS HOMETAX GROUP LIMITED"
-            description="Helped expand the family business, growing it from one of New Zealand's largest alpaca wool collectors and processors, exporting to China and introducing New Zealand's fine products there."
+            description="Helped expand the family business, growing it from one of New Zealand&apos;s largest alpaca wool collectors and processors, exporting to China and introducing New Zealand&apos;s fine products there."
             event="Nov 2022 to Feb 2023"
           />
         </SpeakingSection>
