@@ -139,7 +139,8 @@ function MobileNavigation(props) {
 }
 
 function NavItem({ href, children }) {
-  let isActive = usePathname() === href
+  const pathname = usePathname();
+  let isActive = pathname === href || (pathname === '/' && href === '/about');
 
   return (
     <li>
@@ -158,8 +159,9 @@ function NavItem({ href, children }) {
         )}
       </Link>
     </li>
-  )
+  );
 }
+
 
 function DesktopNavigation(props) {
   return (
