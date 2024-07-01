@@ -6,7 +6,7 @@ import comingsoon from "@/images/logos/comingsoon.svg"
 import Friendtastic from "@/images/logos/friendtastic.svg"
 import blog from "@/images/logos/blog.svg"
 import ChatGPT_logo from "@/images/logos/ChatGPT_logo.svg"
-import Weather from "@/images/logos/Weather.svg"
+import weather from "@/images/logos/weather.svg"
 
 
 const projects = [
@@ -22,7 +22,7 @@ const projects = [
     description:
       "Get the current weather in Auckland, New Zealand. A simple weather app built with Next.js and Tailwind CSS. It fetches the current weather data for Auckland, New Zealand using the Weatherstack API.",
     link: { href: "/projects/weather", label: "Auckland Weather" },
-    logo: Weather,
+    logo: weather,
   },
   {
     name: "Blog System",
