@@ -6,6 +6,7 @@ import comingsoon from "@/images/logos/comingsoon.svg"
 import Friendtastic from "@/images/logos/friendtastic.svg"
 import blog from "@/images/logos/blog.svg"
 import ChatGPT_logo from "@/images/logos/ChatGPT_logo.svg"
+import Weather from "@/images/logos/Weather.svg"
 
 
 const projects = [
@@ -13,14 +14,21 @@ const projects = [
     name: "Friendtastic",
     description:
       "If you're always stressing about managing your relationships or wanna try AI to help you out, maybe using this software could be a good choice.",
-    link: { href: "", label: "Work In Progress" },
+    link: { href: "https://www.friendtastic.fun", label: "https://www.friendtastic.fun" },
     logo: Friendtastic,
+  },
+  {
+    name: "Weather in Auckland",
+    description:
+      "Get the current weather in Auckland, New Zealand. A simple weather app built with Next.js and Tailwind CSS. It fetches the current weather data for Auckland, New Zealand using the Weatherstack API.",
+    link: { href: "/projects/weather", label: "Auckland Weather" },
+    logo: Weather,
   },
   {
     name: "Blog System",
     description:
       "A chill team project: a personal blog system. Being my first ever team project, maybe you'd like to sign up and give our blog a whirl?",
-    link: { href: "https://huqizheng.com/homepage", label: "https://huqizheng.com/homepage" },
+    link: { href: "#", label: "Under Maintenance" },
     logo: blog,
   },
   {
@@ -31,10 +39,10 @@ const projects = [
     logo: ChatGPT_logo,
   },
   {
-    name: "More Coming Here",
+    name: "More Project",
     description:
-      "More projects are on the way. Stay tuned!",
-    link: { href: "https://qizhenghu.com/", label: "NA" },
+      "",
+    link: { href: "#", label: "Coming soon" },
     logo: comingsoon
   },
 ]

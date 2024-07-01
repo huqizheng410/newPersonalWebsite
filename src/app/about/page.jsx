@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image"
 import Link from "next/link"
 import clsx from "clsx"
@@ -32,12 +34,6 @@ function MailIcon(props) {
       />
     </svg>
   )
-}
-
-export const metadata = {
-  title: "About",
-  description:
-    "Kia Ora, I’m Qizheng Hu. currently nestled in Auckland, New Zealand.",
 }
 
 export default function About() {
@@ -92,6 +88,7 @@ export default function About() {
           </ul>
         </div>
       </div>
+
     </Container>
   )
 }
