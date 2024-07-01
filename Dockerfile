@@ -1,23 +1,26 @@
-# Use an official Node runtime as a parent image
+# 使用一个基础镜像，例如 node:16-alpine
 FROM node:16-alpine
 
-# Set the working directory
+# 设置工作目录
 WORKDIR /app
 
-# Copy the package.json and package-lock.json files to the container
+# 将 package.json 和 package-lock.json 复制到工作目录
 COPY package*.json ./
 
-# Install dependencies
+# 安装依赖
 RUN npm install
 
-# Copy the rest of the application files
+# 将项目文件复制到工作目录
 COPY . .
+
+# 复制环境变量文件
+COPY .env.local .env.local
 
 # Build the Next.js application
 RUN npm run build
 
-# Expose the port the app runs on
-EXPOSE 3000
+# 暴露端口 80
+EXPOSE 80
 
-# Command to run the app
-CMD ["npm", "run", "start"]
+# 启动命令，指定 Next.js 在 80 端口运行
+CMD ["npm", "start", "--", "-p", "80"]
