@@ -11,18 +11,18 @@ import weather from "@/images/logos/weather.svg"
 
 const projects = [
   {
+    name: "Kingfisher Healthcare",
+    description:
+      "If you're looking for an efficient way to manage healthcare needs and improve patient care, Kingfisher Healthcare might be the solution you're searching for.",
+    link: { href: "https://www.kingfisherhealthcare.com", label: "https://www.kingfisherhealthcare.com" },
+    logo: KingfisherHealthcare,
+  },  
+  {
     name: "Friendtastic",
     description:
       "If you're always stressing about managing your relationships or wanna try AI to help you out, maybe using this software could be a good choice.",
     link: { href: "https://www.friendtastic.fun", label: "https://www.friendtastic.fun" },
     logo: Friendtastic,
-  },
-  {
-    name: "Weather in Auckland",
-    description:
-      "Get the current weather in Auckland, New Zealand. A simple weather app built with Next.js and Tailwind CSS. It fetches the current weather data for Auckland, New Zealand using the Weatherstack API.",
-    link: { href: "/projects/weather", label: "Auckland Weather" },
-    logo: weather,
   },
   {
     name: "Blog System",
